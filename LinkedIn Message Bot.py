@@ -86,8 +86,8 @@ for n in range(1,n_pages):
         time.sleep(4)
 
         #send message
-        #submit = driver.find_element(By.XPATH, "//button[@type='submit']")
-        #driver.execute_script("arguments[0].click()", submit)
+        submit = driver.find_element(By.XPATH, "//button[@type='submit']")
+        driver.execute_script("arguments[0].click()", submit)
 
         time.sleep(2)
 
