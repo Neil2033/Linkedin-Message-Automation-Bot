@@ -1,3 +1,29 @@
+                                                                       
+                               @                  @                             
+                               @@                @@                             
+                               @@@              @ @                             
+               @              &@ @@            @  @              #              
+                @@            @@  @@         *@   @            @@               
+                @@@@          @@   &@       @@    @          @@@(               
+                 @@ (@%       @@@(             ,@@@        @  @@                
+                  @&  @@@   @@@@@&   &@@@@@&   @@@@@@   @@@   @                 
+                   @   @@@     @@@      @.     @@@     @@@  *@           /      
+        @@@@       @@@      @@#      *@&@(@(      @@@      @@@       @@@        
+          @ *@  @@        #@      @@@   @   @@%      @         @@  @ %@         
+           ,  @@         @@ @@          @           @ @@         @@             
+            @*          &@ @@         @ @ @@@        @ @/          @@           
+          @@            @@ @          @ @ @@ @       @&@@            @@         
+          @@            @@ @    @@    @ @ @&  @      @&@@            @@         
+            @@          .@ @@   @@,   @ @ @%  @%    .@ @           @@           
+              @@         @@ @@  @@@   @ @ @%  @@   @@ @@         @@             
+                @@@        @% @@ @ @@ @ @ @(  @@ %@,@@        @@@               
+                   &@@       @@ @@@ @@@ @ @/  @@@ @@       @@/                  
+                       &@@@     @@@   @ @ @   @@@     @@@%                      
+                             @@@@@@#   *#,   %@@@@@@                            
+
+
+
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
@@ -16,6 +42,8 @@ time.sleep(1)
 #find UN/PW fields on the page
 username = driver.find_element(By.XPATH, "//input[@name='session_key']")
 password = driver.find_element(By.XPATH, "//input[@name='session_password']")
+
+#*************** STEP 1 ****************
 
 #********************LOGIN INFORMATION****************
 #Input login credentials
@@ -37,6 +65,8 @@ n_pages = 3
 #looping through page numbers, by adding the the range as a str at the end of the URL for page=n 
 for n in range(1,n_pages):
     
+    #*************** STEP 2 ****************
+
     #Input URL for: ["people, connection_type(1)"]
     driver.get("https://www.linkedin.com/search/results/people/?network=%5B%22F%22%5D&origin=FACETED_SEARCH&page=" + str(n))
 
