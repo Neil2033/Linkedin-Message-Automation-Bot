@@ -1,4 +1,3 @@
-
 This Bot will allow you to automatically send a message to first connections on LinkedIn.
 
 You will need to modify a couple of things in code before sending a message:
