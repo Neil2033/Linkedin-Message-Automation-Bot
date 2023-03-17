@@ -16,9 +16,13 @@ You will need to modify a couple of things in code before sending a message:
 
     You will see comments with the above annotation in the code which denotes the STEP where you want to input your custom parameters.
 
-    Keep in mind that LinkedIn will automatically block you for spamming if you do it for too long, so reserve it for short periods of time.
+    Keep in mind that 
+    LinkedIn will automatically block you for spamming if you do it for too long.
+    so reserve it for short periods of time.
 
     
-    SPAM RESPONSIBLY.
-
-    -S1X3NSE
+    Only 10 messages in a go, give break for every 10 messages.
+    And don't send more than 50 messages in a day.
+    
+    
+    Happy Hacking.   :wink :wink
